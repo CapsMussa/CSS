@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+}
+.one{
+    width:100%;
+    opacity: .9;
+}
+.head{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    display: flex;
+    justify-content: center; /* Растягивает внутри .head объекты по width */
+    align-items:end;
+    width:100%;
+    height:80px;
+}
+a{
+    text-decoration: none;
+}
+.img{
+    float: right;
+    margin-right: 150px;
+    height: 80px;
+}
+.object{
+    padding:5px 10px 5px 10px;
+    display: flex;
+    align-items: center; /* содержимое в центр*/
+    margin-left: 20px;
+    color: #e7e7e7;
+    font-size: 18px;
+    font-family: fantasy;
+    font-width: 100;
+    letter-spacing:2px;
+    background: black;
+    font-stretch: ultra-expanded;
+    opacity: .99;
+    transition: 1s;
+}
+.object:hover{
+    background: rgba(180, 4, 26, 0.91);
+    color:#fff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:200px;
+    left: 50px;
+    width: 50%;
+    color:#fff;
+    opacity: .8;
+    transition: 1s;
+}
+.block{
+    padding: 15px;
+    background:#000;
+    color:#fff;
+    font-family: "Franklin Gothic Medium";
+    font-size:80px;
+}
+.container:hover{
+    opacity: 0.9;
+}
+.block_right {
+    padding: 15px;
+    position: absolute;
+    top: 420px;
+    right: 270px;
+    width: 300px;
+    background: #fff;
+    font-family: "Franklin Gothic Medium";
+    color: #000;
+    font-size: 25px;
+    transition: 0.7s;
+}
+.inp{
+    position: absolute;
+    top: 350px;
+    right: 380px;
+    width:200px;
+    height: 50px;
+    background: rgba(247, 4, 27, 1);
+    color: #fff;
+    font-family: fantasy;
+    font-size: 20px;
+    border: 0px solid red;
+    transition: 0.7s;
+}
+.inp:hover{
+    background: #9CEDDA;
+    color:#333;
+}
