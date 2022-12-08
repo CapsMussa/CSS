@@ -26,7 +26,6 @@
     });
     });
 </script>
-</script>
 <a name="home"><img src="img/1.jpg" class="one"/></a>
 <div class="container">
     <div class="block">Lorem ipsumdolor sit amet, consectetur adipisicing elit...</div>
