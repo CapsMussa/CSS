@@ -1,6 +1,9 @@
 body{
     margin: 0px;
 }
+html {
+    scroll-behavior: smooth;
+}
 .one{
     width:100%;
     opacity: .9;

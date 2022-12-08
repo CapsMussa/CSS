@@ -10,6 +10,23 @@
     <link rel="stylesheet" href="head.css">
 </head>
 <body>
+
+<script>
+    $("a").on('click', function(event) {
+        if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+          $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function(){
+
+             window.location.hash = hash;
+            });
+        }
+    });
+    });
+</script>
+</script>
 <a name="home"><img src="img/1.jpg" class="one"/></a>
 <div class="container">
     <div class="block">Lorem ipsumdolor sit amet, consectetur adipisicing elit...</div>
